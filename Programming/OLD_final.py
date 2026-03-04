@@ -1,8 +1,8 @@
 # Script lama kelompok G
 # Author: Alif Gibran Muhammad Ervin (5026251070)
 #
-# Logika: Camera detect tag0 -> send posisi tag0 ke MCU sampai tag0 dekat (0,0) ->
-# send "PAYLOAD" ke MCU -> tunggu MCU request drop -> track tag1 sampai MCU send "DONE"
+# Logika: Camera detect tag0(payload) -> send posisi tag0 ke MCU sampai tag0 dekat (0,0) ->
+# send "PAYLOAD" ke MCU -> tunggu MCU request drop -> track tag1(droppoint) sampai MCU send "DONE"
 
 
 import math
